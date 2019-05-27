@@ -1,0 +1,41 @@
+@media(max-width:1229px) {
+html{
+   /* font-size: 10px;*/
+}
+}
+
+@media(max-width:991px) {
+    .offer{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .offer__container{
+        width: 70%;
+        margin:10px auto;
+        font-size: 15px;
+    }
+    .offer__button {
+        height: 10%;
+    }
+    .headline__title-2::after{
+        width: 150px;
+    }
+    .headline__title-2::before{
+        width: 150px;
+    }
+    .main-content{
+        
+        flex-direction: column;
+        justify-content: center;
+    }
+    .news, .call-to-action {
+        margin: 0 auto;
+        width: 70%
+    }
+    }
+@media (max-width:991px){
+.wrap__header-title{
+    display: none;
+}
+    
+}
